@@ -11,6 +11,15 @@ public class Persona {
     private String nombre;
     private String direccion;
 
+    public Persona() {
+    }
+
+    public Persona(String cedula, String nombre, String direccion) {
+        this.cedula = cedula;
+        this.nombre = nombre;
+        this.direccion = direccion;
+    }
+
     public String getCedula() {
         return cedula;
     }

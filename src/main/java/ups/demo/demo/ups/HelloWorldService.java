@@ -12,6 +12,7 @@ import jakarta.ws.rs.core.MediaType;
 public class HelloWorldService {
 
     @GET
+    @Path("/say")
     @Produces(MediaType.TEXT_PLAIN)
     public String sayHello() {
         return "Hello, World!";
